@@ -1,0 +1,45 @@
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+/mfe-container/node_modules
+/mfe-home/node_modules
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/mfe-container/coverage
+/mfe-home/coverage
+
+# next.js
+/mfe-container/.next/
+/mfe-home/.next/
+/out/
+
+# production
+/mfe-container/build
+/mfe-home/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+/mfe-container/.env.local
+/mfe-home/.env.local
+/mfe-container/.env.development.local
+/mfe-home/.env.development.local
+/mfe-container/.env.test.local
+/mfe-home/.env.test.local
+/mfe-container/.env.production.local
+/mfe-home/.env.production.local
+
+# vercel
+/mfe-container/.vercel
+/mfe-home/.vercel
